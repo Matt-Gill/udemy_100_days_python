@@ -10,3 +10,12 @@ bmi = weight_as_int / (height_as_float * height_as_float)
 
 bmi_as_int = int(bmi)
 print(bmi_as_int)
+
+height = 1.65 
+weight = 84
+
+# Write your code here.
+# Calculate the bmi using weight and height.
+bmi = weight / height ** 2
+
+print(bmi)
